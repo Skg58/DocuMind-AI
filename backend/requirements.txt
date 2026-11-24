@@ -1,0 +1,30 @@
+# Core
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.3
+pydantic-settings==2.7.0
+python-multipart==0.0.20
+
+# AI / ML (CPU-only)
+torch>=2.6.0
+sentence-transformers==3.3.1
+qdrant-client==1.13.2
+fastembed==0.6.1
+boto3==1.36.2
+
+# PDF Processing
+pymupdf==1.25.1
+
+# LLM Client
+google-genai==1.5.0
+
+# Utilities
+python-dotenv==1.0.1
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.25.0
+httpx==0.28.1
+
+# Logging & Monitoring
+structlog==24.4.0
